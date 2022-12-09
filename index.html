@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+  <!-- main logo / nav -->
+  <header>
+    
+    <!-- Nav goes here-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <h1 id="mainTitle">My Portfolio</h1>
+    <nav>
+      <ul style="list-style: none;" id="navlinks">
+        <li>
+          <a class="headerlinks" href="#bioContainer">About Me</a>
+        </li>
+        <li>
+          <a class="headerlinks" href="#workContainer">Work</a>
+        </li>
+        <li>
+          <a class="headerlinks" href="#contactContainer">Contact Me</a>
+        </li>
+        <li>
+          <a class="headerlinks" href="https://1drv.ms/w/s!AtFu5TkEMhs5jzQfZrGBNIVpzh3f?e=fvucoe">CV</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <img src="./assets/images/herobanner 2.jpg" alt="Mountain Range" style="width:100%;">
+    <div class="bannerheading">
+      <h2>Welcome!</h2>
+    </div>
+
+  </section>
+
+  <div id="bio-image-container">
+    <div id="image"></div>
+    <div id="name">
+      <h1>Alex Lecerf</h1>
+    </div>
+  </div>
+
+  <main class="gridContainer">
+    <!-- about me -->
+    <section class="page-section" id="bioContainer">
+      <h1 id="bioTitle">About Me</h1>
+      <p id="bioText">
+        Hi, my name is Alex, I was born in the Seychelles, not that I remember it as I left when I was 2 years old.
+        I've lived all over the world, travelling fairly frequently because of my parents work.
+        I am half French and half English. I can also speak Spanish and some Japanese, though lots of it has been lost
+        from lack of practice.
+        <br>
+        <br>
+        A little bit about me, I love reading both books and manga, with a wide range of genres that I enjoy.
+        My favourite being epic fantasy, where the series span over 4 books. In my spare time I enjoy watching anime and
+        spending time with my friends.
+      </p>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="workContainer">
+      <h1 id="workTitle">Work</h1>
+      <div id="firstProject">
+        <a href="https://alecerf01.github.io/Challenge-1/" class="workLinks">
+          <div class="projectTitle">1st Project</div>
+        </a>
+      </div>
+      <div id="secondProject">
+        <a href="Placeholder" class="workLinks">
+          <div class="projectTitle">2nd Project</div>
+        </a>
+      </div>
+      <div id="thirdProject">
+        <a href="Placeholder" class="workLinks">
+          <div class="projectTitle">3rd Project</div>
+        </a>
+      </div>
+      <div id="fourthProject">
+        <a href="Placeholder" class="workLinks">
+          <div class="projectTitle">4th Project</div>
+        </a>
+      </div>
+      <div id="fithProject">
+        <a href="Placeholder" class="workLinks">
+          <div class="projectTitle">5th Project</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section" id="contactContainer">
+      <h1 id="contactTitle">Contact Me</h1>
+      <ul id="contactInfo" style="list-style: none;">
+        <li>
+          <div>
+            Email:<a class="contact-details" href="Placeholder"> alexlecerf0131@gmail.com</a>
+          </div>
+        </li>
+        <li>
+          <a>telephone: 07700700700</a>
+        </li>
+        <li>
+          <a id="linkedIn" class="contact-details"
+            href="https://www.linkedin.com/in/alex-lecerf-260878241/">LinkedIn</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</html>

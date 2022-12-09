@@ -1,0 +1,8 @@
+:root {
+    --primary: #690202;
+    --secondary: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
